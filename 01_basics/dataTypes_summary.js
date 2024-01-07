@@ -34,4 +34,30 @@ const myFunc = function() {
     console.log("Hello Jayesh");
 }
 
-console.log(typeof heros);
+//console.log(typeof heros);
+
+
+
+// *****************************************************************************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYotubeName = "Jayeshdotcom"
+
+let anotherYoutubeName = myYotubeName
+anotherYoutubeName = "traderchannel"
+
+console.log(myYotubeName);
+console.log(anotherYoutubeName);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "jay@oksbi"
+}
+
+let userTwo = userOne
+
+userTwo.email = "jayesh@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
